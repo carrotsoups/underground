@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #ffc5c5;
+    text-align: center;
+}
+.container{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #efb1b1;
+    text-align: center;
+}
+.logo {
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.title {
+    font-size: 6rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0px;
+    background-color: #eb6f6f;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 20px;
+    max-width: fit-content; 
+    margin: auto;
+    display: block;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    color: #e6e3e3;
+}
+.subtitle a {
+    color: #c16d6d;
+}
+
+.event-date {
+    font-size: 2rem;
+    color: #de5366;
+}
+
+.signup-link {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    text-decoration: none;
+}
+
+.signup-button {
+    background-color: rgb(238, 96, 96);
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-decoration: none;
+}
+
+.signup-button:hover {
+    background-color: #ee9d9d;
+    text-decoration: none;
+}
+
+.description {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    color: #ffffff;
+    line-height: 1.5;
+    background-color: #f18b8b;
+    border: 4px;
+    border-radius: 20px;
+    margin: auto;
+    display: block;
+    padding: 10px 30px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.faq-title {
+    font-size: 2rem;
+    margin: 40px 0 20px;
+    color: #ffffff;
+    font-family: inherit;
+    background-color: #f18b8b;
+    border: 4px;
+    border-radius: 20px;
+    margin: auto;
+    display: block;
+    padding: 10px 20px;
+    max-width: fit-content;
+}
+
+.faq-section {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+}
+
+.faq-question {
+    color: #ffffff;
+    width: 100%;
+    background: #f18b8b;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    text-align: left;
+    font-family: inherit;
+}
+
+.faq-answer {
+    display: none;
+    padding: 10px;
+    background: #ffc5c5;
+    border-left: 3px solid #ff8b8b;
+    font-family: inherit;
+}
+
+.footer-text {
+    font-size: 1.5rem;
+    color: #c16d6d;
+    margin: 40px 0;
+}
+
+.header {
+    padding: 2px 2px;
+    background: #ec3750;
+    color: #f1f1f1;
+}
+.header-title {
+    font-size: 2rem;
+    letter-spacing: -15px;
+    font-family: "MedievalSharp", serif;
+    font-weight: bolder;
+    align-items: right;
+    line-height: 0%;
+    color: rgb(255, 255, 255);
+}
+.header-title a {
+    text-decoration: none;
+    color: inherit; /* Keeps the same color as the parent */
+}
+  
+.container {
+    padding: 2px;
+}
+  
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .container {
+    padding-top: 2px;
+}
+
+

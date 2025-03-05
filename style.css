@@ -124,11 +124,13 @@ body {
 .faq-section {
     max-width: 800px;
     margin: 0 auto;
+    border-radius: 5px;
     text-align: left;
 }
 
 .faq-item {
     margin-bottom: 15px;
+    border-radius: 5px;
 }
 
 .faq-question {
@@ -137,6 +139,7 @@ body {
     background: #f18b8b;
     border: none;
     font-size: 1.2rem;
+    border-radius: 5px;
     font-weight: bold;
     padding: 10px;
     cursor: pointer;
@@ -150,6 +153,7 @@ body {
     background: #ffc5c5;
     border-left: 3px solid #ff8b8b;
     font-family: inherit;
+    border-radius: 5px;
 }
 
 .footer-text {

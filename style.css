@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&family=MedievalSharp&family=Sedgwick+Ave&display=swap');
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "MedievalSharp", cursive;
     margin: 0;
     padding: 0;
-    background-color: #ffc5c5;
+    background-color: #0e0925;
     text-align: center;
 }
 .container{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "MedievalSharp", cursive;
     margin: 0;
     padding: 0;
-    background-color: #efb1b1;
+    background: linear-gradient(#0e0925, #e6d9f7);
     text-align: center;
 }
 .logo {
@@ -27,12 +27,12 @@ body {
 
 .title {
     font-size: 6rem;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "MedievalSharp", cursive;
     font-weight: bolder;
     align-items: center;
     color: rgb(255, 255, 255);
     letter-spacing: 0px;
-    background-color: #eb6f6f;
+    background-color: #f8fe49;
     padding: 20px 20px;
     border: none;
     border-radius: 20px;
@@ -46,12 +46,12 @@ body {
     color: #e6e3e3;
 }
 .subtitle a {
-    color: #c16d6d;
+    color: #f8fe49;
 }
 
 .event-date {
     font-size: 2rem;
-    color: #de5366;
+    color:#0e0925;
 }
 
 .signup-link {
@@ -62,8 +62,8 @@ body {
 }
 
 .signup-button {
-    background-color: rgb(238, 96, 96);
-    color: white;
+    background-color: #f8fe49;
+    color:#0e0925;
     font-size: 1.2rem;
     padding: 10px 20px;
     border: none;
@@ -74,8 +74,13 @@ body {
 }
 
 .signup-button:hover {
-    background-color: #ee9d9d;
+    background-color: #0e0925;
+    color: white;
     text-decoration: none;
+}
+
+.schedule{
+    color:#f8fe49
 }
 
 .description {
@@ -84,7 +89,7 @@ body {
     font-size: 1.2rem;
     color: #ffffff;
     line-height: 1.5;
-    background-color: #f18b8b;
+    background-color: #0e0925;
     border: 4px;
     border-radius: 20px;
     margin: auto;
@@ -110,9 +115,9 @@ body {
 .faq-title {
     font-size: 2rem;
     margin: 40px 0 20px;
-    color: #ffffff;
+    color: #0e0925;
     font-family: inherit;
-    background-color: #f18b8b;
+    background-color: #f8fe49;
     border: 4px;
     border-radius: 20px;
     margin: auto;
@@ -136,7 +141,7 @@ body {
 .faq-question {
     color: #ffffff;
     width: 100%;
-    background: #f18b8b;
+    background: #0e0925;
     border: none;
     font-size: 1.2rem;
     border-radius: 5px;
@@ -150,21 +155,21 @@ body {
 .faq-answer {
     display: none;
     padding: 10px;
-    background: #ffc5c5;
-    border-left: 3px solid #ff8b8b;
+    background: #fcffb4;
+    border-left: 3px solid #0e0925;
     font-family: inherit;
     border-radius: 5px;
 }
 
 .footer-text {
     font-size: 1.5rem;
-    color: #c16d6d;
+    color: #0e0925;
     margin: 40px 0;
 }
 
 .header {
     padding: 2px 2px;
-    background: #ec3750;
+    background: #0e0925;
     color: #f1f1f1;
 }
 .header-title {
@@ -194,5 +199,3 @@ body {
 .sticky + .container {
     padding-top: 2px;
 }
-
-
